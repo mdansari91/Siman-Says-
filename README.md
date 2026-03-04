@@ -1,1 +1,4 @@
-Simon say Game clone
+Simon say Game clone.git
+# teacher
+
+# student

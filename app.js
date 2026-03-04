@@ -42,29 +42,6 @@ h2.innerText = `Level ${level}`;
 
     btnFlash(randBtn);
 }
-// function levelUp(){
-//     level++;
-// h2.innerText=`Level ${level}`;
-
-// let randIdx=Math.floor(Math.random()*3);
-// let randColor=btns[randIdx];
-// let randBtn=document.querySelector(`.${randColor}`);
-// btnSeq.push(randColor);
-// console.log(btnSeq);
-// btnFlash(randBtn);
-// }
-// function checkAns(){
-//   // console.log("curr level:",level);
-//   let idx=level-1;
-
-//   if(userSeq[idx]===btnSeq[idx]){
-//     console.log("dame value");
-//   }else{
-//     h2.innerText=`Game Over! Press any key to start.`;
-//   }
-
-// }
-
 function checkAns(id){
   let idx = userSeq.length - 1;
   if(userSeq[idx] === gameSeq[idx]){
